@@ -33,30 +33,30 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q  &kp W  &kp E  &kp R      &kp T        &kp Y      &kp U       &kp I      &kp O    &kp P
-&kp A  &kp S  &kp D  &kp F      &kp G        &kp H      &kp J       &kp K      &kp L    &ht RSHFT SQT
-&kp Z  &kp X  &kp C  &kp V      &kp B        &kp N      &kp M       &kp COMMA  &kp DOT  &kp FSLH
-                     &lt 2 TAB  &kp ENTER    &kp SPACE  &lt 1 BSPC
+&kp Q  &kp W  &kp E  &kp R      &kp T               &kp Y            &kp U       &kp I      &kp O                &kp P
+&kp A  &kp S  &kp D  &kp F      &kp G               &kp H            &kp J       &kp K      &kp L                &ht RSHFT SQT
+&kp Z  &kp X  &kp C  &kp V      &kp B               &kp N            &kp M       &kp COMMA  &mt LEFT_GUI PERIOD  &mt RIGHT_ALT SLASH
+                     &lt 2 TAB  &mt LSHIFT ENTER    &mt LCTRL SPACE  &lt 1 BSPC
             >;
         };
 
         right_layer {
             display-name = "Right Layer";
             bindings = <
-&kp INS     &kp N1  &kp N2  &kp N3  &trans     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
-&kp DEL     &kp N4  &kp N5  &kp N6  &trans     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp SEMI
-&caps_word  &kp N7  &kp N8  &kp N9  &kp N0     &trans    &trans     &trans     &trans     &trans
-                            &trans  &kp ESC    &trans    &trans
+&kp N1        &kp N2      &kp N3         &kp N4        &kp N5           &kp N6         &kp N7        &kp N8        &kp N9        &kp N0
+&kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)
+&kp TAB       &kp SQT     &kp MINUS      &kp EQUAL     &kp GRAVE        &kp LS(LBRC)   &kp LS(RBRC)  &kp LBKT      &kp RBKT      &kp BSLH
+                                         &trans        &kp ESC          &trans         &trans
             >;
         };
 
         left_layer {
             display-name = "Left Layer";
             bindings = <
-&trans    &kp LBKT  &kp LBRC  &kp RBRC  &trans       &kp CARET  &kp LPAR   &kp RPAR   &kp RBKT  &kp TILDE
-&kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT    &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH  &kp GRAVE
-&trans    &trans    &trans    &trans    &trans       &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE  &trans
-                              &trans    &trans       &trans     &trans
+&kp ESC   &kp UP    &trans     &trans  &trans      &kp F1    &kp F2   &kp F3   &kp F4   &bt BT_NXT
+&kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans      &kp F5    &kp F6   &kp F7   &kp F8   &bt BT_PRV
+&trans    &trans    &trans     &trans  &trans      &kp F9    &kp F10  &kp F11  &kp F12  &bt BT_CLR
+                               &trans  &kp BSPC    &kp LALT  &trans
             >;
         };
 
